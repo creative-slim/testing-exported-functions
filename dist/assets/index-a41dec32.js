@@ -58532,8 +58532,8 @@ const Perf = ({
   });
 };
 function Experience() {
-  const model = useGLTF("./hamburger-draco.glb.txt");
-  const fox = useGLTF("./Fox.glb.txt");
+  const model = useGLTF("https://uploads-ssl.webflow.com/640ee307d1a77e8d7e9d243b/641c4db5046d40d74dcc7989_hamburger-draco.glb.txt");
+  const fox = useGLTF("https://uploads-ssl.webflow.com/640ee307d1a77e8d7e9d243b/641c4db5fdcbcedea4a9d035_Fox.glb.txt");
   const animations = useAnimations(fox.animations, fox.scene);
   console.log("🚀 ~ Experience ~ animations:", animations);
   reactExports.useEffect(() => {
